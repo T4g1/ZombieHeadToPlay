@@ -1,0 +1,1 @@
+ <-ERROR-> main.cpp:35 : (SDL_main) Exception de test

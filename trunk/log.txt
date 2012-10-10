@@ -1,0 +1,25 @@
+(103) : (Core::Core) Initialisation du Core
+(203) : (Module::Module) Initialisation du module 'Logic'
+(203) : (Core::registerModule) Enregistrement du module 'Logic'
+(203) : (Module::Module) Initialisation du module 'Input'
+(203) : (Core::registerModule) Enregistrement du module 'Input'
+(203) : (Module::Module) Initialisation du module 'Render'
+(203) : (Core::registerModule) Enregistrement du module 'Render'
+(203) : (Core::run) Lancement du thread 'Render'
+(204) : (Render::frame) Debut de la gestion de l'affichage
+(204) : (Core::run) Lancement du thread 'Logic'
+(204) : (Input::frame) Debut de la gestion des entrées utilisateur
+(205) : (Logic::frame) Debut de la gestion logique
+(205) : (IntroState::init) Initialisation de l'introduction
+(4457) : (IntroState::input) Touche pressée
+(4458) : (IntroState::cleanUp) Fermeture de l'introduction
+(4464) : (MenuState::init) Initialisation du menu
+(4465) : (MenuState::cleanUp) Fermetre du menu
+(4465) : (PlayState::init) Initialisation du jeu
+(9230) : (PlayState::input) Fermeture de la fenêtre
+(9230) : (Logic::frame) Fin de la gestion logique
+(9230) : (Input::frame) Fin de la gestion des entrées utilisateur
+(9230) : (Core::run) Attente de la fin des thread ...
+(9250) : (Render::frame) Fin de la gestion de l'affichage
+(9251) : (Core::run) Tout les thread sont termine
+(9251) : (Core::run) Fermeture de l'application

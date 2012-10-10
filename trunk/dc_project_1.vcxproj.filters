@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\modules">
+      <UniqueIdentifier>{4909462c-8814-47c9-9fe4-a3f6a86b8538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\modules">
+      <UniqueIdentifier>{2f0bb677-6f57-4a35-bc90-8ca89af6322f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\data">
+      <UniqueIdentifier>{265b3925-03ce-4d82-8352-89d8f8b987a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\data">
+      <UniqueIdentifier>{d6535ba4-da8e-4402-ab62-6e1f6507f3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\states">
+      <UniqueIdentifier>{850b7ca0-7c68-4e62-a3c9-df3362e32785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\state">
+      <UniqueIdentifier>{efb652ad-0b2b-469b-a115-8848330c04a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\tinyXML">
+      <UniqueIdentifier>{4720607c-11c3-4132-a10a-2eb51bb22e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\tinyXML">
+      <UniqueIdentifier>{9bb6c59d-62fe-4dfa-890f-26b2e9779f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\data\ammo">
+      <UniqueIdentifier>{6d662591-bc2a-4154-837b-e5f57005151a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\data\ammo">
+      <UniqueIdentifier>{fa9f9274-c3c0-4899-bc32-e2e88ff88f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\data\weapon">
+      <UniqueIdentifier>{268fe353-e44b-46b6-be95-dac4800f6a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\data\weapon">
+      <UniqueIdentifier>{5a901eb4-98ca-4302-b283-e84e1e951fcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\Ai.cpp">
+      <Filter>Fichiers sources\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\Input.cpp">
+      <Filter>Fichiers sources\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\Render.cpp">
+      <Filter>Fichiers sources\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\Module.cpp">
+      <Filter>Fichiers sources\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\Logic.cpp">
+      <Filter>Fichiers sources\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\Player.cpp">
+      <Filter>Fichiers sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\Level.cpp">
+      <Filter>Fichiers sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErrorMessage.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\configuration.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\State.cpp">
+      <Filter>Fichiers sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\GameOverState.cpp">
+      <Filter>Fichiers sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\IntroState.cpp">
+      <Filter>Fichiers sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\MenuState.cpp">
+      <Filter>Fichiers sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\PauseState.cpp">
+      <Filter>Fichiers sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\PlayState.cpp">
+      <Filter>Fichiers sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsmn.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\color.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TMXLoader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlparser.cpp">
+      <Filter>Fichiers sources\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlerror.cpp">
+      <Filter>Fichiers sources\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxml.cpp">
+      <Filter>Fichiers sources\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinystr.cpp">
+      <Filter>Fichiers sources\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base64.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\Tileset.cpp">
+      <Filter>Fichiers sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\Tile.cpp">
+      <Filter>Fichiers sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\ammo\Ammo.cpp">
+      <Filter>Fichiers sources\data\ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\weapon\Weapon.cpp">
+      <Filter>Fichiers sources\data\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\weapon\Spanner.cpp">
+      <Filter>Fichiers sources\data\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\weapon\Knife.cpp">
+      <Filter>Fichiers sources\data\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\ammo\KnifeAmmo.cpp">
+      <Filter>Fichiers sources\data\ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\Sprite.cpp">
+      <Filter>Fichiers sources\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\Animation.cpp">
+      <Filter>Fichiers sources\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\modules\Ai.h">
+      <Filter>Fichiers d%27en-tête\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modules\Input.h">
+      <Filter>Fichiers d%27en-tête\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modules\Module.h">
+      <Filter>Fichiers d%27en-tête\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modules\Render.h">
+      <Filter>Fichiers d%27en-tête\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logger.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modules\Logic.h">
+      <Filter>Fichiers d%27en-tête\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\Player.h">
+      <Filter>Fichiers d%27en-tête\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\Level.h">
+      <Filter>Fichiers d%27en-tête\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ErrorMessage.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\configuration.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\State.h">
+      <Filter>Fichiers d%27en-tête\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\GameOverState.h">
+      <Filter>Fichiers d%27en-tête\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\PlayState.h">
+      <Filter>Fichiers d%27en-tête\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\PauseState.h">
+      <Filter>Fichiers d%27en-tête\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\MenuState.h">
+      <Filter>Fichiers d%27en-tête\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\IntroState.h">
+      <Filter>Fichiers d%27en-tête\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsmn.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\color.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TMXLoader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinystr.h">
+      <Filter>Fichiers d%27en-tête\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinyxml.h">
+      <Filter>Fichiers d%27en-tête\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base64.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\Tileset.h">
+      <Filter>Fichiers d%27en-tête\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\Tile.h">
+      <Filter>Fichiers d%27en-tête\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\ammo\Ammo.h">
+      <Filter>Fichiers d%27en-tête\data\ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\weapon\Weapon.h">
+      <Filter>Fichiers d%27en-tête\data\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\weapon\Knife.h">
+      <Filter>Fichiers d%27en-tête\data\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\weapon\Spanner.h">
+      <Filter>Fichiers d%27en-tête\data\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\ammo\KnifeAmmo.h">
+      <Filter>Fichiers d%27en-tête\data\ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\Sprite.h">
+      <Filter>Fichiers d%27en-tête\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\Animation.h">
+      <Filter>Fichiers d%27en-tête\data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
